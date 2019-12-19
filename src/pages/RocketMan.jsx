@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class Decollage extends Component {
+export default class RocketMan extends Component {
   render() {
     return <div></div>;
   }
