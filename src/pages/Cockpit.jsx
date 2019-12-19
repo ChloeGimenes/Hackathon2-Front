@@ -13,14 +13,11 @@ class Cockpit extends Component {
   <source src={require("../assets/cockpit.mp4")} type="video/mp4" />
 </video>
 <div className="cockpit-board">
-<p className="cockpit-title">Titre</p>
-<div>
-    <div className="cockpit-board-image">
-    <p>Description en 2 lignes.</p>
-    </div>
+        <p className="cockpit-title">Titre</p>
+    <div className="cockpit-board-image"></div> 
 </div>
 </div>
-</div>
+
 
     );
   }}
