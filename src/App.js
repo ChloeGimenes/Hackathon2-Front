@@ -1,12 +1,17 @@
 import React from "react";
-import Home from "./pages/Home";
 import { Switch, Route } from "react-router-dom";
+
 import "./App.css";
+import Home from "./pages/Home";
+import Form from "./pages/Form";
+import Decollage from "./pages/Decollage";
 
 function App() {
   return (
     <Switch>
       <Route path='/' component={Home} />
+      <Route path='/Form' component={Form} />
+      <Route path='/Decollage' component={Decollage} />
     </Switch>
   );
 }
