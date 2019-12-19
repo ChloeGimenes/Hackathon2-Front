@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import Form from "./pages/Form";
 import Decollage from "./pages/Decollage";
 import RocketMan from "./pages/RocketMan";
+import Cockpit from "./pages/Cockpit";
+import ErrorFound from "./pages/ErrorFound";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Route path='/Form' component={Form} />
       <Route path='/Decollage' component={Decollage} />
       <Route path='/RocketMan' component={RocketMan} />
+      <Route path='/ErrorFound' component={ErrorFound} />
+      <Route path='/Cockpit' component={Cockpit} />
     </Switch>
   );
 }

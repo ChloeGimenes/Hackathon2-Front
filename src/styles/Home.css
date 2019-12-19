@@ -9,12 +9,11 @@
   .background-video  {
     width: 100%;
     height: auto; /* En pratique : supérieur à la hauteur du viewport */
-  /* }
+/* }
 }
 @media (max-aspect-ratio: 16/9) {
   .background-video {
     width: auto; /* En pratique : supérieur à la largeur du viewport */
-
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
@@ -23,14 +22,14 @@
   bottom: 0;
   width: 100%;
   height: auto;
-  filter: rgba(0, 0, 0, 0.5)
+  filter: rgba(0, 0, 0, 0.5);
 }
 
 @media (min-aspect-ratio: 16/9) {
-  #myVideo  {
+  #myVideo {
     width: 100%;
-    height: auto; 
-   }
+    height: auto;
+  }
 }
 /* 
 @media (max-aspect-ratio: 16/9) {
@@ -52,46 +51,40 @@
 }
 
 .content-text {
-  
-   margin-top: 20px;
-   margin-left: 130px;
-   
+  margin-top: 20px;
+  margin-left: 130px;
 }
 
 .content-text h1 {
-font-size: 40px; 
+  font-size: 40px;
 }
 
 .content-text p {
-font-size: 20px; 
+  font-size: 20px;
 }
 
 .content-logo-nasa {
-    
-margin-top: 160px;
-margin-left: 60px;
-height: 240px;
-width: auto;
-
+  margin-top: 160px;
+  margin-left: 60px;
+  height: 240px;
+  width: auto;
 }
 
 /* Style the button used to pause/play the video */
-#myBtn {
+.myBtn {
   width: 15%;
   font-size: 18px;
   padding: 10px;
   border: none;
-  
+
   background-color: #fff;
   cursor: pointer;
   color: black;
   border-radius: 30px;
   margin-top: 40px;
-  
 }
 
-#myBtn:hover {
+.myBtn:hover {
   background: #eb1c25;
   color: black;
 }
-
