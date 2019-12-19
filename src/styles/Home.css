@@ -1,0 +1,81 @@
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  filter: rgba(0, 0, 0, 0.6)
+}
+
+@media (min-aspect-ratio: 16/9) {
+  #myVideo  {
+    width: 100%;
+    height: auto; 
+   }
+}
+/* 
+@media (max-aspect-ratio: 16/9) {
+  .background-video {
+    width: auto;
+  }
+  } */
+
+.content {
+  position: fixed;
+  align-items: left;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+
+  /* padding: 20px; */
+}
+
+.content-text {
+  
+   margin-top: 20px;
+   margin-left: 130px;
+   
+}
+
+.content-text h1 {
+font-size: 46px; 
+}
+
+.content-text p {
+font-size: 26px; 
+}
+
+.content-logo-nasa {
+    
+margin-top: 190px;
+margin-left: 60px;
+height: 240px;
+width: auto;
+
+}
+
+/* Style the button used to pause/play the video */
+.myBtn {
+  width: 15%;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  font-size: 26px;
+  background-color: white;
+  cursor: pointer;
+  color: #205dac;
+  margin-top: 50px;
+  border-radius: 40px;
+  
+}
+
+.myBtn:hover {
+  background: #ed1c24;
+  color: black;
+}
+
+.myBtn:focus { outline:0 !important; }
