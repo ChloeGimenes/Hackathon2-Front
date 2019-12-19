@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React, { Component } from "react";
 
 import "../styles/Form.css";
@@ -9,24 +10,20 @@ export default class Form extends Component {
         <form className='container_div'>
           <div className='div un'>
             <label for='firstname'>Prénom</label>
-            <input type='text' id='firstname'></input>
+            <input className='input' type='text' id='firstname'></input>
           </div>
-
           <div className='div deux'>
             <label for='lastname'>Nom de famille</label>
-            <input type='text' id='lastname'></input>
+            <input className='input' type='text' id='lastname'></input>
           </div>
-
           <div className='div trois'>
             <label for='age'>Age</label>
-            <input type='number' id='age'></input>
+            <input className='input' type='number' id='age'></input>
           </div>
-
           <div className='div quatre'>
             <label for='birthdate'>Date de naissance</label>
-            <input type='date' id='birthdate'></input>
+            <input className='input' type='date' id='birthdate'></input>
           </div>
-
           <div className='div cinq'>
             <label for='destination-select'>Destination:</label>
             <select name='destination' id='destination-select'>
@@ -39,22 +36,19 @@ export default class Form extends Component {
               <option value='tatouine'>tatouine</option>
             </select>
           </div>
-
           <div className='div six'>
             <label for='groupeSanguin'>Groupe sanguin... au cas où !!</label>
-            <input type='text' id='groupeSanguin'></input>
+            <input className='input' type='text' id='groupeSanguin'></input>
           </div>
 
           <div className='div sept'>
             <label for='vegetarien'>Végétarien</label>
-            <input type='checkbox' id='vegetarien'></input>
+            <input className='input' type='checkbox' id='vegetarien'></input>
           </div>
-
           <div className='div huit'>
             <label for=''>Groupe sanguin... au cas où !!</label>
-            <input type='text' id=''></input>
+            <input className='input' type='text' id=''></input>
           </div>
-
           <div className='div neuf'>
             <label for='classe-select'>Classe voyageur:</label>
             <select name='classe' id='classe-select'>
@@ -66,23 +60,20 @@ export default class Form extends Component {
               </option>
             </select>
           </div>
-
-          <div className='div dix'>
+          <div className='div dix stage'>
             <label for='poids'>poids</label>
-            <input type='text' id='poids'></input>
+            <input className='input' type='text' id='poids'></input>
           </div>
-
           <div className='div onze'>
             <label for='groupeSanguin'>Groupe sanguin... au cas où !!</label>
-            <input type='text' id='groupeSanguin'></input>
+            <input className='input' type='text' id='groupeSanguin'></input>
           </div>
-
           <div className='div douze'>
             <label for='groupeSanguin'>Groupe sanguin... au cas où !!</label>
-            <input type='text' id='groupeSanguin'></input>
+            <input className='input' type='text' id='groupeSanguin'></input>
           </div>
         </form>
-        <button>Réserver</button>
+        <button className='button'>Réserver</button>
       </div>
     );
   }
