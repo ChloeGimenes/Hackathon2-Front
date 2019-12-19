@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import '../Style/Home.css'
+import logoNasa from '../assets/nasa-logo.png'
 
 class Home extends Component {
  
@@ -26,10 +27,14 @@ class Home extends Component {
 
 
 <div class="content">
-  <h1>Heading</h1>
-  <p>Lorem ipsum...</p>
+<img src={logoNasa} alt='nasa-logo' className="content-logo-nasa"/>
+<div className="content-text">
+
+  <h1>NASA BOOKING</h1>
+  <br/><p>Bookez maintenant votre billet pour l'espace.</p>
   
-  <button id="myBtn" onclick="myFunction()">Pause</button>
+  <button id="myBtn" onclick="myFunction()">GO !</button>
+  </div>
 </div>
 </div>
     );
