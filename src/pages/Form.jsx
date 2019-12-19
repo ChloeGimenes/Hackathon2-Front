@@ -12,22 +12,22 @@ export default class Form extends Component {
             <input type='text' id='firstname'></input>
           </div>
 
-          <div className='div 2'>
+          <div className='div deux'>
             <label for='lastname'>Nom de famille</label>
             <input type='text' id='lastname'></input>
           </div>
 
-          <div className='div 3'>
+          <div className='div trois'>
             <label for='age'>Age</label>
             <input type='number' id='age'></input>
           </div>
 
-          <div className='div 4'>
+          <div className='div quatre'>
             <label for='birthdate'>Date de naissance</label>
             <input type='date' id='birthdate'></input>
           </div>
 
-          <div className='div 5'>
+          <div className='div cinq'>
             <label for='destination-select'>Destination:</label>
             <select name='destination' id='destination-select'>
               <option value=''>Alors où ? où ? où ?</option>
@@ -40,22 +40,22 @@ export default class Form extends Component {
             </select>
           </div>
 
-          <div className='div 6'>
+          <div className='div six'>
             <label for='groupeSanguin'>Groupe sanguin... au cas où !!</label>
             <input type='text' id='groupeSanguin'></input>
           </div>
 
-          <div className='div 7'>
+          <div className='div sept'>
             <label for='vegetarien'>Végétarien</label>
             <input type='checkbox' id='vegetarien'></input>
           </div>
 
-          <div className='div 8'>
+          <div className='div huit'>
             <label for=''>Groupe sanguin... au cas où !!</label>
             <input type='text' id=''></input>
           </div>
 
-          <div className='div 9'>
+          <div className='div neuf'>
             <label for='classe-select'>Classe voyageur:</label>
             <select name='classe' id='classe-select'>
               <option value=''>choisis ici</option>
@@ -67,21 +67,22 @@ export default class Form extends Component {
             </select>
           </div>
 
-          <div className='div 10'>
+          <div className='div dix'>
             <label for='poids'>poids</label>
             <input type='text' id='poids'></input>
           </div>
 
-          <div className='div 11'>
+          <div className='div onze'>
             <label for='groupeSanguin'>Groupe sanguin... au cas où !!</label>
             <input type='text' id='groupeSanguin'></input>
           </div>
 
-          <div className='div 12'>
+          <div className='div douze'>
             <label for='groupeSanguin'>Groupe sanguin... au cas où !!</label>
             <input type='text' id='groupeSanguin'></input>
           </div>
         </form>
+        <button>Réserver</button>
       </div>
     );
   }
