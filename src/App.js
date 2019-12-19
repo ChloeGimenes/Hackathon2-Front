@@ -1,24 +1,13 @@
 import React from "react";
+import { Switch, Route } from "react-router-dom";
 
-import "./App.css";
+import Form from "./pages/Form";
 
 function App() {
   return (
-    <div>
-      <div class="stars"></div>
-      <div class="twinkling">
-        <iframe
-          src="https://giphy.com/embed/3Y1nbBv3BPxRe"
-          width="480"
-          height="275"
-          frameBorder="0"
-          class="giphy-embed"
-          allowFullScreen
-        ></iframe>
-      </div>
-
-      <div class="clouds"></div>
-    </div>
+    <Switch>
+      <Route path='/Form' component={Form} />
+    </Switch>
   );
 }
 
