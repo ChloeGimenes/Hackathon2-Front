@@ -30,6 +30,8 @@ class Home extends Component {
 <img src={logoNasa} alt='nasa-logo' className="content-logo-nasa"/>
 <div className="content-text">
 
+
+
   <h1>NASA BOOKING</h1>
   <br/><p>Bookez maintenant votre billet pour l'espace.</p>
   
