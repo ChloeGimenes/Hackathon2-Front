@@ -1,7 +1,7 @@
 const planete = [
   {
     id: 1,
-    name: "Lance-roquête",
+    name: "Planête Lance-roquête",
     image: URL(""),
     habitants: 0,
     description:
@@ -11,7 +11,7 @@ const planete = [
 
   {
     id: 2,
-    name: "Sushi",
+    name: "Planête Sushi",
     image: URL(""),
     habitants: 3.2,
     description:
@@ -21,7 +21,7 @@ const planete = [
 
   {
     id: 3,
-    name: "Requêtes",
+    name: "Planête Requêtes",
     image: URL(""),
     habitants: 345000,
     description:
@@ -31,7 +31,7 @@ const planete = [
 
   {
     id: 4,
-    name: "Rô-quetes",
+    name: "Planête Rô-quetes",
     image: URL(""),
     habitants: 0,
     description:
@@ -41,7 +41,7 @@ const planete = [
 
   {
     id: 5,
-    name: "Cro-quetes",
+    name: "Planête Cro-quetes",
     image: URL(""),
     habitants: 5000000,
     description:

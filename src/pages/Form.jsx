@@ -6,18 +6,51 @@ import "../styles/Form.css";
 import redButton from "../assets/redButton.png";
 
 export default class Form extends Component {
+  constructor() {
+    super();
+    this.state = {
+      firstname: "",
+      lastname: "",
+      destination: ""
+    };
+
+    this.onChange = this.onChange.bind(this);
+    this.submitForm = this.submitForm.bind(this);
+  }
+
+  onChange(e) {
+    this.setState({ [e.target.name]: e.target.value });
+  }
+
+  submitForm(e) {
+    e.preventDefault();
+  }
+
   render() {
+    console.log(this.state.firstname);
     return (
       <div className='avion'>
         <h1 className='titre'>Le formulaire de l'espace</h1>
-        <form className='container_div'>
+        <form className='container_div' onSubmit={this.submitForm}>
           <div className='div un yellow'>
             <label for='firstname'>Prénom</label>
-            <input className='input' type='text' id='firstname'></input>
+            <input
+              className='input'
+              type='text'
+              id='firstname'
+              name='firstname'
+              onChange={this.onChange}
+              value={this.state.firstname}></input>
           </div>
           <div className='div deux red'>
             <label for='lastname'>Nom de famille</label>
-            <input className='input' type='text' id='lastname'></input>
+            <input
+              className='input'
+              type='text'
+              id='lastname'
+              name='lastname'
+              onChange={this.onChange}
+              value={this.state.lastname}></input>
           </div>
           <div className='div trois'>
             <label for='age'>Age</label>
@@ -29,14 +62,19 @@ export default class Form extends Component {
           </div>
           <div className='div cinq red'>
             <label for='destination-select'>Destination:</label>
-            <select name='destination' id='destination-select'>
+            <select
+              name='destination'
+              id='destination-select'
+              onChange={this.onChange}
+              value={this.state.destination}>
               <option value=''>Alors où ? où ? où ?</option>
-              <option value='dog'>Dog</option>
-              <option value='jupiter'>jupiter</option>
-              <option value='snoop dog'>snoop dog</option>
-              <option value='sushi'>sushi</option>
-              <option value='rond-point'>rond-point</option>
-              <option value='tatouine'>tatouine</option>
+              <option value='Planête Lance-roquête'>
+                Planête Lance-roquête
+              </option>
+              <option value='Planête Sushi'>snoop dog</option>
+              <option value='Planête Requêtes'>sushi</option>
+              <option value='Planête Rô-quetes'>Planête Rô-quetes</option>
+              <option value='Planête Cro-quetes'>Planête Cro-quetes</option>
             </select>
           </div>
           <div className='div six yellow'>
