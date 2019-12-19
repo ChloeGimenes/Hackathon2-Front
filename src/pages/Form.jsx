@@ -8,11 +8,11 @@ export default class Form extends Component {
     return (
       <div className='avion'>
         <form className='container_div'>
-          <div className='div un'>
+          <div className='div un yellow'>
             <label for='firstname'>Prénom</label>
             <input className='input' type='text' id='firstname'></input>
           </div>
-          <div className='div deux'>
+          <div className='div deux red'>
             <label for='lastname'>Nom de famille</label>
             <input className='input' type='text' id='lastname'></input>
           </div>
@@ -20,11 +20,11 @@ export default class Form extends Component {
             <label for='age'>Age</label>
             <input className='input' type='number' id='age'></input>
           </div>
-          <div className='div quatre'>
+          <div className='div quatre red'>
             <label for='birthdate'>Date de naissance</label>
             <input className='input' type='date' id='birthdate'></input>
           </div>
-          <div className='div cinq'>
+          <div className='div cinq red'>
             <label for='destination-select'>Destination:</label>
             <select name='destination' id='destination-select'>
               <option value=''>Alors où ? où ? où ?</option>
@@ -36,7 +36,7 @@ export default class Form extends Component {
               <option value='tatouine'>tatouine</option>
             </select>
           </div>
-          <div className='div six'>
+          <div className='div six yellow'>
             <label for='groupeSanguin'>Groupe sanguin... au cas où !!</label>
             <input className='input' type='text' id='groupeSanguin'></input>
           </div>
@@ -60,20 +60,19 @@ export default class Form extends Component {
               </option>
             </select>
           </div>
-          <div className='div dix stage'>
+          <div className='div dix'>
             <label for='poids'>poids</label>
             <input className='input' type='text' id='poids'></input>
           </div>
-          <div className='div onze'>
+          <div className='div onze red'>
             <label for='groupeSanguin'>Groupe sanguin... au cas où !!</label>
             <input className='input' type='text' id='groupeSanguin'></input>
           </div>
-          <div className='div douze'>
+          <div className='div douze yellow'>
             <label for='groupeSanguin'>Groupe sanguin... au cas où !!</label>
             <input className='input' type='text' id='groupeSanguin'></input>
           </div>
         </form>
-        <button className='button'>Réserver</button>
       </div>
     );
   }
