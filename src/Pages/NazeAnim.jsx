@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {Link} from "react-router-dom";
 import NazAnim from '../assets/naza-anim.gif';
 import Jigsaw from './Jigsaw';
-import Nasa from '../assets/nasa-logo.png';
+import redButton from '../assets/redButton.png';
 import '../styles/NazeAnim.css';
 
 class NazeAnim extends Component {
@@ -12,7 +12,7 @@ class NazeAnim extends Component {
         
         <div className='allAnim'>   
             <img src = {NazAnim} alt="naza-anim" className="anim1"/>
-            <Link to="/Form"><img src={Nasa} alt="" className="nasa-logo"/></Link>
+            <Link to="/Form"><img src={redButton} alt="" className="nasa-logo"/></Link>
             <Jigsaw quote={" Bonjour les boloss ! "} />
         </div>
         
