@@ -6,8 +6,8 @@ import "../styles/Form.css";
 import redButton from "../assets/redButton.png";
 
 export default class Form extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       firstname: "",
       lastname: "",
