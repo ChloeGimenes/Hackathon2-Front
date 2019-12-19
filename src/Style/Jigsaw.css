@@ -1,0 +1,38 @@
+.Jigsaw-Block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    background: #000000;
+    width: 100%;
+    right: 143em;
+    height: 14.6em;
+    justify-content: flex-start;
+    top: 87em;
+  }
+  .Jigsaw-Image {
+    height: 5em;
+    border-radius: 50%;
+    justify-content: flex-start;
+  }
+  .Jigsaw-Quote {
+    color: white;
+    text-align: left;
+    font-size: 2.5em;
+    width: 63em;
+    position: relative;
+    left: 1em;
+}
+
+.Jigsaw-Avatar {
+    display: flex;
+    position: relative;
+    left: 2em;
+}
+  
+  
+  
+  
+  
+  
+  

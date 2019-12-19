@@ -1,0 +1,10 @@
+.allAnim {
+    display: flex;
+    background-image: url("../assets/sky.jpg");
+    background-size: cover;
+}
+
+.anim1 {
+    display: flex;
+    width: 89%;
+}
