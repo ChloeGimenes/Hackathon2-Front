@@ -9,7 +9,7 @@ import Decollage from "./pages/Decollage";
 function App() {
   return (
     <Switch>
-      <Route path='/' component={Home} />
+      <Route exact path='/' component={Home} />
       <Route path='/Form' component={Form} />
       <Route path='/Decollage' component={Decollage} />
     </Switch>
