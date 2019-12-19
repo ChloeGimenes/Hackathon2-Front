@@ -1,24 +1,12 @@
 import React from "react";
-
-import "./App.css";
+import Home from "./Pages/Home";
+import { Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <div class="stars"></div>
-      <div class="twinkling">
-        <iframe
-          src="https://giphy.com/embed/3Y1nbBv3BPxRe"
-          width="480"
-          height="275"
-          frameBorder="0"
-          class="giphy-embed"
-          allowFullScreen
-        ></iframe>
-      </div>
-
-      <div class="clouds"></div>
-    </div>
+    <Switch>
+      <Route path="/" component={Home} />
+    </Switch>
   );
 }
 
