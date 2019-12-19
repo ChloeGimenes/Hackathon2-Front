@@ -1,12 +1,15 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 import "../styles/Form.css";
+import redButton from "../assets/redButton.png";
 
 export default class Form extends Component {
   render() {
     return (
       <div className='avion'>
+        <h1 className='titre'>Le formulaire de l'espace</h1>
         <form className='container_div'>
           <div className='div un yellow'>
             <label for='firstname'>Prénom</label>
@@ -65,14 +68,17 @@ export default class Form extends Component {
             <input className='input' type='text' id='poids'></input>
           </div>
           <div className='div onze red'>
-            <label for='groupeSanguin'>Groupe sanguin... au cas où !!</label>
-            <input className='input' type='text' id='groupeSanguin'></input>
+            <label for='blanc1'>Groupe sanguin... au cas où !!</label>
+            <input className='input' type='text' id='blanc1'></input>
           </div>
           <div className='div douze yellow'>
-            <label for='groupeSanguin'>Groupe sanguin... au cas où !!</label>
-            <input className='input' type='text' id='groupeSanguin'></input>
+            <label for='blanc2'>Groupe sanguin... au cas où !!</label>
+            <input className='input' type='text' id='blanc2'></input>
           </div>
         </form>
+        <Link to='./Decolage'>
+          <img src={redButton} alt='red button' className='button' />
+        </Link>
       </div>
     );
   }
