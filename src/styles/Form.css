@@ -63,55 +63,52 @@ select {
 }
 
 .un {
-  /* animation: float1 3s ease-in-out infinite; */
+  animation: float1 3s ease-in-out infinite;
   /* animation: rotateClockwise1 10s ease-in-out infinite; */
 }
 
 .deux {
-  /* animation: float2 15s ease-in-out infinite; */
+  animation: float2 10s ease-in-out infinite;
 }
 
 .trois {
-  /* animation: float3 4s ease-in-out infinite; */
+  animation: rotateClockwise3 10s ease-in-out infinite;
 }
 
 .quatre {
-  /* animation: float4 3s ease-in-out infinite; */
-  /* animation: rotateClockwise4 9s ease-in-out infinite; */
+  animation: float4 3s ease-in-out infinite;
 }
 
 .cinq {
-  /* animation: float5 2s ease-in-out infinite; */
-  /* animation: rotateClockwise5 6s ease-in-out infinite; */
+  animation: rotateClockwise5 6s ease-in-out infinite;
 }
 
 .six {
-  /* animation: float6 3s ease-in-out infinite; */
+  animation: float6 5s ease-in-out infinite;
 }
 
 .sept {
-  /* animation: float7 3s ease-in-out infinite; */
-  /* animation: rotateClockwise7 3s ease-in-out infinite; */
+  animation: rotateClockwise7 3s ease-in-out infinite;
 }
 
 .huit {
-  /* animation: float8 7s ease-in-out infinite; */
+  animation: float8 7s ease-in-out infinite;
 }
 
 .neuf {
-  /* animation: float9 9s ease-in-out infinite; */
+  animation: float9 9s ease-in-out infinite;
 }
 
 .dix {
-  /* animation: float10 6s ease-in-out infinite; */
+  animation: rotateClockwise7 7s ease-in-out infinite;
 }
 
 .onze {
-  /* animation: float11 3s ease-in-out infinite; */
+  animation: float11 3s ease-in-out infinite;
 }
 
 .douze {
-  /* animation: float12 2s ease-in-out infinite; */
+  animation: float12 2s ease-in-out infinite;
 }
 
 @keyframes float1 {
@@ -139,42 +136,13 @@ select {
     transform: translatey(0px);
   }
 }
-@keyframes float3 {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-50px);
-  }
-  75% {
-    transform: translatey(-100px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-}
 
 @keyframes float4 {
   0% {
     transform: translatey(0px);
   }
-  50% {
-    transform: translatey(-50px);
-  }
-  75% {
-    transform: translatey(-100px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-}
-
-@keyframes float5 {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-50px);
+  25% {
+    transform: translatey(-80px);
   }
   75% {
     transform: translatey(-100px);
@@ -199,63 +167,33 @@ select {
   }
 }
 
-@keyframes float7 {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-50px);
-  }
-  75% {
-    transform: translatey(-100px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-}
-
 @keyframes float8 {
   0% {
-    transform: translatey(0px);
+    transform: translatex(0px);
   }
   50% {
-    transform: translatey(-50px);
+    transform: translatex(-50px);
   }
   75% {
-    transform: translatey(-100px);
+    transform: translatex(-100px);
   }
   100% {
-    transform: translatey(0px);
+    transform: translatex(0px);
   }
 }
 
 @keyframes float9 {
   0% {
-    transform: translatey(0px);
+    transform: translatex(0px);
   }
   50% {
-    transform: translatey(-50px);
+    transform: translatex(-50px);
   }
   75% {
-    transform: translatey(-100px);
+    transform: translatex(-100px);
   }
   100% {
-    transform: translatey(0px);
-  }
-}
-
-@keyframes float10 {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-50px);
-  }
-  75% {
-    transform: translatey(-100px);
-  }
-  100% {
-    transform: translatey(0px);
+    transform: translatex(0px);
   }
 }
 
@@ -289,29 +227,11 @@ select {
   }
 }
 
-@keyframes rotateClockwise1 {
+@keyframes rotateClockwise3 {
   0% {
     transform: rotate(0deg);
   }
   50% {
-    transform: rotate(200deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes rotateClockwise4 {
-  0% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(100deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  75% {
     transform: rotate(200deg);
   }
   100% {
@@ -323,8 +243,8 @@ select {
   0% {
     transform: rotate(0deg);
   }
-  10% {
-    transform: rotate(300deg);
+  40% {
+    transform: rotate(200deg);
   }
   100% {
     transform: rotate(360deg);
@@ -332,18 +252,6 @@ select {
 }
 
 @keyframes rotateClockwise7 {
-  0% {
-    transform: rotate(0deg);
-  }
-  5% {
-    transform: rotate(359deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes rotateClockwise12 {
   0% {
     transform: rotate(0deg);
   }
