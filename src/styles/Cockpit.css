@@ -1,14 +1,13 @@
-.cockpit-content {position: fixed;
+.cockpit-content {
+  position: fixed;
   right: 0;
   bottom: 0;
   width: 100%;
   height: auto;
-
 }
 
-.cockpit-board 
-  
-  {position: fixed;
+.cockpit-board {
+  position: fixed;
   align-items: center;
   bottom: 0;
   background: rgba(0, 0, 0, 0.8);
@@ -16,10 +15,11 @@
   width: 65%;
   height: 60%;
   margin-left: 17%;
-  margin-bottom: 12%;}
+  margin-bottom: 12%;
+}
 
 .cockpit-board-image {
-    position: fixed;
+  position: fixed;
   align-items: center;
   bottom: 0;
   background: white;

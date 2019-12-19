@@ -1,28 +1,27 @@
 .error-page {
-    height: 100vh;
-    background-color: black;
+  height: 100vh;
+  background-color: black;
 }
 
 .container-error {
-   width: 100%;
-   position:absolute;
-   z-index:1;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
 }
 
 .logo-error-nasa {
-    width: 100%;
-    height: auto;
-    align-items:center;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
+  width: 100%;
+  height: auto;
+  align-items: center;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .error-button {
-     width: 15%;
+  width: 15%;
   font-size: 18px;
   padding: 10px;
   border: none;
@@ -32,10 +31,12 @@
   color: white;
   margin-top: 40px;
   justify-content: center;
-  position:absolute;
-   z-index:2;
- margin-left: 42%;
-    margin-top: 26%;
+  position: absolute;
+  z-index: 2;
+  margin-left: 42%;
+  margin-top: 26%;
 }
 
-.error-button:focus { outline:0 !important; }
+.error-button:focus {
+  outline: 0 !important;
+}
