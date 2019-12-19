@@ -1,25 +1,14 @@
 import React, { Component } from "react";
-import '../Style/Home.css'
+import '../styles/Home.css'
 import logoNasa from '../assets/nasa-logo.png'
+import { Link } from 'react-router-dom';
+
 
 class Home extends Component {
  
   render() {
     return (
-      // <video className='background-video'
-      //   autoPlay
-      //   muted
-      //   loop
-      //   style={{
-      //     position: "fixed",
-      //     width: "100%",
-      //     left: 0,
-      //     top: 0
-      //   }}
-      // >
-      //   <source src="./assets/stargate-titles-doctor-who-style.mp4" type="video/mp4" />
-      // </video>
-
+      
   <div>   
 <video autoPlay muted loop id="myVideo">
   <source src={require("../assets/all-stargates-wormhole-vortex-hd.mp4")} type="video/mp4" />
@@ -33,10 +22,11 @@ class Home extends Component {
 
 
   <h1>NASA BOOKING</h1>
-  <br/><p>Bookez maintenant votre billet pour l'espace.</p>
-  
-  <button id="myBtn" onclick="myFunction()">GO !</button>
-  </div>
+  <br/><p>Réservez maintenant votre billet pour l'espace.</p>
+  <Link to='./ErrorFound'> 
+   <button className="myBtn" onclick="myFunction()">GO !</button>
+  </Link>
+ </div>
 </div>
 </div>
     );

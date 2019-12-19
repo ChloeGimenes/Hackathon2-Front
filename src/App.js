@@ -1,12 +1,17 @@
 import React from "react";
-import Home from "./Pages/Home";
 import { Switch, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Cockpit from "./pages/Cockpit";
+import ErrorFound from "./pages/ErrorFound";
 import './App.css';
 
 function App() {
   return (
     <Switch>
-      <Route path="/" component={Home} />
+      <Route exact path="/" component={Home} />
+      <Route path="/ErrorFound" component={ErrorFound} />
+      <Route path="/Cockpit" component={Cockpit} />
     </Switch>
   );
 }
