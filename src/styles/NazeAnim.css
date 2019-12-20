@@ -1,8 +1,8 @@
 .allAnim {
   display: block;
   background-image: url(/static/media/sky.9f8122df.jpg);
-  width: 100%;
   height: 100%;
+  width: 100%;
   background-size: cover;
   position: fixed;
 }
