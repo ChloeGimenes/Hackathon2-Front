@@ -1,6 +1,6 @@
 .allAnim {
   display: block;
-  background-image: url(/static/media/sky.9f8122df.jpg);
+  background-image: url(../assets/sky.jpg);
   height: 100%;
   width: 100%;
   background-size: cover;

@@ -1,8 +1,8 @@
 const planete = [
   {
     id: 1,
-    name: "Planête Lance-roquête",
-    image: URL(""),
+    name: "Donuts",
+    image: require("../assets/donut.png"),
     habitants: 0,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.",
@@ -11,9 +11,9 @@ const planete = [
 
   {
     id: 2,
-    name: "Planête Sushi",
-    image: URL(""),
-    habitants: 3.2,
+    name: "Zinzin",
+    image: require("../assets/planet-zinzin.png"),
+    habitants: 0,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.",
     distance: 1000000000000000
@@ -21,8 +21,8 @@ const planete = [
 
   {
     id: 3,
-    name: "Planête Requêtes",
-    image: URL(""),
+    name: "Planet Bowling",
+    image: require("../assets/bowling.png"),
     habitants: 345000,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.",
@@ -31,8 +31,8 @@ const planete = [
 
   {
     id: 4,
-    name: "Planête Rô-quetes",
-    image: URL(""),
+    name: "Planète des singes",
+    image: require("../assets/apes.png"),
     habitants: 0,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.",
@@ -41,8 +41,8 @@ const planete = [
 
   {
     id: 5,
-    name: "Planête Cro-quetes",
-    image: URL(""),
+    name: "Planète Sushi",
+    image: require("../assets/sushi.png"),
     habitants: 5000000,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.",
