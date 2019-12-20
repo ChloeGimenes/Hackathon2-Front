@@ -19,7 +19,7 @@ function App() {
       <Route path='/RocketMan' component={RocketMan} />
       <Route path='/ErrorFound' component={ErrorFound} />
       <Route path='/Cockpit' component={Cockpit} />
-      <Route path="/Naze" component={NazeAnim} />
+      <Route path='/Naze' component={NazeAnim} />
     </Switch>
   );
 }

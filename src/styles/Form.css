@@ -7,18 +7,22 @@
 }
 
 .titre {
-  padding-top: 20px;
+  padding-top: 393px;
   padding-left: 750px;
+  color: white;
+  position: absolute;
 }
 
 .container_div {
   display: flex;
-  flex-wrap: wrap;
-  align-content: stretch;
+  /* flex-wrap: wrap; */
+  /* align-content: stretch; */
   align-items: center;
   margin: auto;
   height: 80%;
   width: 80%;
+  position: relative;
+  justify-content: space-between;
 }
 
 .button {
@@ -37,7 +41,7 @@
   align-items: center;
   color: blue;
   font-size: large;
-  width: 25%;
+  width: 35%;
 }
 
 .yellow {
@@ -63,52 +67,11 @@ select {
 }
 
 .un {
-  animation: float1 3s ease-in-out infinite;
-  /* animation: rotateClockwise1 10s ease-in-out infinite; */
+  animation: float1 15s ease-in-out infinite;
 }
 
 .deux {
-  animation: float2 10s ease-in-out infinite;
-}
-
-.trois {
-  animation: rotateClockwise3 10s ease-in-out infinite;
-}
-
-.quatre {
-  animation: float4 3s ease-in-out infinite;
-}
-
-.cinq {
-  animation: rotateClockwise5 6s ease-in-out infinite;
-}
-
-.six {
-  animation: float6 5s ease-in-out infinite;
-}
-
-.sept {
-  animation: rotateClockwise7 3s ease-in-out infinite;
-}
-
-.huit {
-  animation: float8 7s ease-in-out infinite;
-}
-
-.neuf {
-  animation: float9 9s ease-in-out infinite;
-}
-
-.dix {
-  animation: rotateClockwise7 7s ease-in-out infinite;
-}
-
-.onze {
-  animation: float11 3s ease-in-out infinite;
-}
-
-.douze {
-  animation: float12 2s ease-in-out infinite;
+  animation: rotateClockwise3 25s ease-in-out infinite;
 }
 
 @keyframes float1 {
@@ -116,111 +79,7 @@ select {
     transform: translatey(0px);
   }
   50% {
-    transform: translatey(-50px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-}
-@keyframes float2 {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-50px);
-  }
-  75% {
-    transform: translatey(-100px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-}
-
-@keyframes float4 {
-  0% {
-    transform: translatey(0px);
-  }
-  25% {
-    transform: translatey(-80px);
-  }
-  75% {
-    transform: translatey(-100px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-}
-
-@keyframes float6 {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-50px);
-  }
-  75% {
-    transform: translatey(-100px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-}
-
-@keyframes float8 {
-  0% {
-    transform: translatex(0px);
-  }
-  50% {
-    transform: translatex(-50px);
-  }
-  75% {
-    transform: translatex(-100px);
-  }
-  100% {
-    transform: translatex(0px);
-  }
-}
-
-@keyframes float9 {
-  0% {
-    transform: translatex(0px);
-  }
-  50% {
-    transform: translatex(-50px);
-  }
-  75% {
-    transform: translatex(-100px);
-  }
-  100% {
-    transform: translatex(0px);
-  }
-}
-
-@keyframes float11 {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-50px);
-  }
-  75% {
-    transform: translatey(-100px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-}
-
-@keyframes float12 {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-50px);
-  }
-  75% {
-    transform: translatey(100px);
+    transform: translatey(-150px);
   }
   100% {
     transform: translatey(0px);
@@ -231,53 +90,7 @@ select {
   0% {
     transform: rotate(0deg);
   }
-  50% {
-    transform: rotate(200deg);
-  }
   100% {
     transform: rotate(360deg);
   }
 }
-
-@keyframes rotateClockwise5 {
-  0% {
-    transform: rotate(0deg);
-  }
-  40% {
-    transform: rotate(200deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes rotateClockwise7 {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/* .stage {
-  position: relative;
-  height: 4em;
-  text-align: center;
-}
-#poids {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100px;
-  background: transparent;
-  line-height: 2em;
-  -webkit-transition: 1s bottom, 4s 1s left cubic-bezier(0, 1, 1, 1);
-  -moz-transition: 1s bottom, 4s 1s left cubic-bezier(0, 1, 1, 1);
-  -o-transition: 1s bottom, 4s 1s left cubic-bezier(0, 1, 1, 1);
-  transition: 1s bottom, 4s 1s left cubic-bezier(0, 1, 1, 1);
-}
-.stage:hover #poids {
-  left: calc(100% - 100px);
-  bottom: 2em;
-} */
