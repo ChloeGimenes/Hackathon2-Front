@@ -1,0 +1,23 @@
+.allAnim {
+    display: flex;
+    background-image: url("../assets/sky.jpg");
+    background-size: cover;
+    height: 113em;
+}
+
+.anim1 {
+    display: flex;
+    width: 89%;
+}
+
+.enterNaz{
+    display: flex;
+}
+
+.nasa-logo {
+    display: flex;
+    top: 73%;
+    right: 83em;
+    position: relative;
+    width: 22em;
+}

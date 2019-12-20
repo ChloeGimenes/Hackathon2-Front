@@ -1,0 +1,9 @@
+.allDecol {
+    background-image: url("../assets/wallDecol.jpg");
+    background-size: cover;
+}
+
+.anim2 {
+    width: fit-content;
+    height: 112em;;
+}

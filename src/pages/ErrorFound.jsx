@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom';
 
 import "../styles/ErrorFound.css";
 import errorNasa from "../assets/error-nasa-logo.png";
@@ -16,7 +17,7 @@ class ErrorFound extends Component {
         </div>
 
         <div className='container-button'>
-          <button className='error-button'> REDIRECTING</button>
+          <Link to="/Naze"><button className='error-button'> REDIRECTING</button></Link>
         </div>
       </div>
     );

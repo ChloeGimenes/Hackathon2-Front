@@ -9,8 +9,7 @@ import RocketMan from "./pages/RocketMan";
 import Cockpit from "./pages/Cockpit";
 import ErrorFound from "./pages/ErrorFound";
 import Galaxy from "./pages/Galaxy";
-
-
+import NazeAnim from "./pages/NazeAnim";
 
 
 function App() {
@@ -22,8 +21,11 @@ function App() {
       <Route path='/RocketMan' component={RocketMan} />
       <Route path='/ErrorFound' component={ErrorFound} />
       <Route path='/Cockpit' component={Cockpit} />
+
       <Route path='/Galaxy' component={Galaxy} />
       
+      <Route path="/Naze" component={NazeAnim} />
+
     </Switch>
   );
 }
