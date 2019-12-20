@@ -8,6 +8,8 @@ import Decollage from "./pages/Decollage";
 import RocketMan from "./pages/RocketMan";
 import Cockpit from "./pages/Cockpit";
 import ErrorFound from "./pages/ErrorFound";
+import Galaxy from "./pages/Galaxy";
+
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Route path='/RocketMan' component={RocketMan} />
       <Route path='/ErrorFound' component={ErrorFound} />
       <Route path='/Cockpit' component={Cockpit} />
+      <Route path='/Galaxy' component={Galaxy} />
+      
     </Switch>
   );
 }
