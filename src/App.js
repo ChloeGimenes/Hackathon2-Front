@@ -11,6 +11,8 @@ import ErrorFound from "./pages/ErrorFound";
 import Galaxy from "./pages/Galaxy";
 
 
+
+
 function App() {
   return (
     <Switch>

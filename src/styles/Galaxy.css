@@ -188,6 +188,7 @@ text-align: center;
 }
 
 
+
 @keyframes float-planets {
   0% {
     transform: translatey(0px);
@@ -202,3 +203,57 @@ text-align: center;
     transform: translatey(0px);
   }
 }
+
+
+
+
+.container_map {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.imagePlanet {
+    
+    z-index: 100;
+    height: 200px;
+    width: auto;
+
+    animation: float2 10s ease-in-out infinite;
+    
+}
+
+
+@keyframes float2 {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-50px);
+  }
+  75% {
+    transform: translatey(-100px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.container_map img:nth-child(2n+1) {
+
+   margin-bottom: 10%;
+}
+
+.container_map img:nth-child(-n+3) {
+
+    margin-top: 5%;
+}
+
+.container_map img:nth-child(4) {
+margin-top: 10%;
+}
+
+
