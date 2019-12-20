@@ -53,8 +53,8 @@ export default class Form extends Component {
               value={this.state.lastname}></input>
           </div>
         </form>
-        <Link to='/Galaxy'>
-          <img src={redButton} alt='red button' className='button' />
+        <Link to={`/Galaxy/${this.state.firstname}`}>
+          <img src={redButton} alt='red button' className='button_form' />
         </Link>
       </div>
     );

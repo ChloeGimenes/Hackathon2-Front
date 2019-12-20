@@ -16,12 +16,12 @@ function App() {
     <Switch>
       <Route exact path='/' component={Home} />
       <Route path='/Form' component={Form} />
-      <Route path='/Decollage' component={Decollage} />
+      <Route path='/Decollage/:name' component={Decollage} />
       <Route path='/RocketMan' component={RocketMan} />
       <Route path='/ErrorFound' component={ErrorFound} />
-      <Route path='/Cockpit' component={Cockpit} />
+      <Route path='/Cockpit/:id/:firstname' component={Cockpit} />
       <Route path='/Naze' component={NazeAnim} />
-      <Route path='/Galaxy' component={Galaxy} />
+      <Route path='/Galaxy/:firstname' component={Galaxy} />
     </Switch>
   );
 }

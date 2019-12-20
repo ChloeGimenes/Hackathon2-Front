@@ -6,14 +6,12 @@
   height: auto;
 }
 
-
-.cockpit-board 
-  
-  {align-items: center;
+.cockpit-board {
+  align-items: center;
   justify-content: space-around;
-      display: flex;
-position: fixed;
- flex-direction: column;
+  display: flex;
+  position: fixed;
+  flex-direction: row;
   bottom: 0;
   background: rgba(0, 0, 0, 0.8);
   color: white;
@@ -24,33 +22,44 @@ position: fixed;
 }
 
 .cockpit-board-image {
-  
-  
-
-  background: white;
-  color: #fff;
+  /* background: white; */
+  /* color: #fff; */
+  z-index: 110;
+  /* position: relative; */
   width: 300px;
   height: 300px;
- 
+  padding-bottom: 100px;
 }
-
-.cockpit-title {
-    font-size: 20px;
-    margin-top: 15px;
-    text-align: center;
-}
-
 
 .cockpit-api {
-    
-display: flex;
-justify-content: space-around;
-flex-direction: row;
-width: 100%;
-
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
 }
 
 .api-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
-    width: 50%
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bibi {
+  width: 140px;
+  height: 80px;
+  border-radius: 20px 20px 20px 20px;
 }
