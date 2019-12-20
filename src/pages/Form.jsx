@@ -76,7 +76,7 @@ export default class Form extends Component {
             <input className='input' type='text' id='blanc2'></input>
           </div>
         </form>
-        <Link to='./Decolage'>
+        <Link to='/Decollage'>
           <img src={redButton} alt='red button' className='button' />
         </Link>
       </div>
