@@ -43,7 +43,7 @@ export default class Form extends Component {
               value={this.state.firstname}></input>
           </div>
           <div className='div deux red'>
-            <label for='lastname'>Nom de famille</label>
+            <label for='lastname'>Nom</label>
             <input
               className='input'
               type='text'
@@ -52,69 +52,8 @@ export default class Form extends Component {
               onChange={this.onChange}
               value={this.state.lastname}></input>
           </div>
-          <div className='div trois'>
-            <label for='age'>Age</label>
-            <input className='input' type='number' id='age'></input>
-          </div>
-          <div className='div quatre red'>
-            <label for='birthdate'>Date de naissance</label>
-            <input className='input' type='date' id='birthdate'></input>
-          </div>
-          <div className='div cinq red'>
-            <label for='destination-select'>Destination:</label>
-            <select
-              name='destination'
-              id='destination-select'
-              onChange={this.onChange}
-              value={this.state.destination}>
-              <option value=''>Alors où ? où ? où ?</option>
-              <option value='Planête Lance-roquête'>
-                Planête Lance-roquête
-              </option>
-              <option value='Planête Sushi'>snoop dog</option>
-              <option value='Planête Requêtes'>sushi</option>
-              <option value='Planête Rô-quetes'>Planête Rô-quetes</option>
-              <option value='Planête Cro-quetes'>Planête Cro-quetes</option>
-            </select>
-          </div>
-          <div className='div six yellow'>
-            <label for='groupeSanguin'>Groupe sanguin... au cas où !!</label>
-            <input className='input' type='text' id='groupeSanguin'></input>
-          </div>
-
-          <div className='div sept'>
-            <label for='vegetarien'>Végétarien</label>
-            <input className='input' type='checkbox' id='vegetarien'></input>
-          </div>
-          <div className='div huit'>
-            <label for=''>Groupe sanguin... au cas où !!</label>
-            <input className='input' type='text' id=''></input>
-          </div>
-          <div className='div neuf'>
-            <label for='classe-select'>Classe voyageur:</label>
-            <select name='classe' id='classe-select'>
-              <option value=''>choisis ici</option>
-              <option value='1'>1ière classe</option>
-              <option value='deux'>2nd classe</option>
-              <option value='die'>
-                Classe si il y à un problème... tu meurs
-              </option>
-            </select>
-          </div>
-          <div className='div dix'>
-            <label for='poids'>poids</label>
-            <input className='input' type='text' id='poids'></input>
-          </div>
-          <div className='div onze red'>
-            <label for='blanc1'>Groupe sanguin... au cas où !!</label>
-            <input className='input' type='text' id='blanc1'></input>
-          </div>
-          <div className='div douze yellow'>
-            <label for='blanc2'>Groupe sanguin... au cas où !!</label>
-            <input className='input' type='text' id='blanc2'></input>
-          </div>
         </form>
-        <Link to='./Decolage'>
+        <Link to='/Galaxy'>
           <img src={redButton} alt='red button' className='button' />
         </Link>
       </div>

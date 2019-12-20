@@ -1,23 +1,40 @@
 .allAnim {
-    display: flex;
-    background-image: url("../assets/sky.jpg");
-    background-size: cover;
-    height: 113em;
+  display: block;
+  background-image: url(/static/media/sky.9f8122df.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: fixed;
 }
 
 .anim1 {
-    display: flex;
-    width: 89%;
+  display: flex;
+  width: 20%;
+  position: relative;
+  left: 48em;
 }
 
-.enterNaz{
-    display: flex;
+.enterNaz {
+  display: flex;
 }
 
 .nasa-logo {
-    display: flex;
-    top: 73%;
-    right: 83em;
-    position: relative;
-    width: 22em;
+  display: flex;
+  top: 73%;
+  right: 83em;
+  position: absolute;
+  width: 10em;
+  left: 55em;
 }
+
+.Jigsaw-Block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  background: #000000;
+  top: 23em;
+  width: auto;
+}
+
+/* <img src={redButton} alt='' className='nasa-logo' /> */
