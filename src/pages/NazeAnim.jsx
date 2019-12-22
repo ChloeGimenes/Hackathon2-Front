@@ -17,7 +17,7 @@ class NazeAnim extends Component {
         </div>
         <Jigsaw
           quote={
-            " La NASA c'est terminé ! Bienvenue chez AIR NAZE ! Montez dans la fusée et venez découvrir 'The Real Word' !"
+            " La NASA c'est terminé ! Bienvenue chez AIR NAZE ! Montez dans la fusée et venez découvrir 'The Real World' !"
           }
         />
       </div>
